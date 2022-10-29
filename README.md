@@ -11,3 +11,5 @@ Under Data File:
     -Selection_1.txt: Top 10 from three metrics with same weights
     
     -Selection_2.txt: Top 10 from three metrics with wights(0.4, 0.2, 0.4)
+
+Focus on Selection_1.txt and Selection_2.txt
