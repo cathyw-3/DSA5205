@@ -1,4 +1,5 @@
 import pandas as pd
+from tqdm import tqdm
 
 ticker_list = []
 with open('/content/drive/MyDrive/DSA5205/Data/Ticket_Candidates.txt', 'r') as f:
