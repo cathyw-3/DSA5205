@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from math import floor
 
-factor_returns = pd.read_csv("../../Analysis/factors_returns_multi.csv")
+factor_returns = pd.read_csv("../../Predict/factors_returns_pred.csv")
 style_factors = list(factor_returns.columns)[1:11]
 style_factor_returns = factor_returns[["Date"]+style_factors]
 factors = pd.read_csv("../../Factors/merge_Factors.csv")
